@@ -153,7 +153,17 @@ export default function PrimarySearchAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ backgroundColor: 'white', color: 'black' }}>
         <Toolbar>
-          <IconButton
+        <div style={{
+  borderRadius: '50%',
+  overflow: 'hidden',
+  width: '3%',
+  maxWidth: '100vw',
+  marginLeft: '2%',
+}}>
+  <img src="https://asset.brandfetch.io/id6Imppd3r/idSbeSSTGX.png"
+       style={{ width: '100%' }} />
+</div>
+          {/* <IconButton
             size="large"
             edge="start"
             color="inherit"
@@ -161,7 +171,8 @@ export default function PrimarySearchAppBar() {
             sx={{ mr: 2 }}
           >
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
+          
           <Typography
             variant="h6"
             noWrap
@@ -175,7 +186,7 @@ export default function PrimarySearchAppBar() {
         onClick={() => navigate('/HomePage')}
         style={{ color: 'black',margin:'20px' }} // Set color to blue
       >
-        Home Page
+        Home 
       </Button>
       <Button
         className="link-button"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8sKAfvt1fR7H+grUa6RxdrCcCjU2wCJqiMKnYsZZ7H6tLkZsQ3xAtJkfAJ+yFFOyy/nt4wGGB14AeWBnLvF+Ow==",
+  "dgSpecHash": "gtmRVkyfogU+ooAAsFtOLh/8UImA2keT17kDxUH8zjPdnOWWnV+rW9JjxKJCyaAQA0CKebrvGLmI53h2FRm70g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Service\\Workers.Service.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Service\\Workers.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

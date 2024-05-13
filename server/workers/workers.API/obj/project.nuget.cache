@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sg9gVHFMV5cGbFmYeK7Q6CvjbuthbfkTtCWdNccXYjNJY0/6ccgeTfsExCkXf7mophiQGcCkiblUD3EJbCCDuw==",
+  "dgSpecHash": "rReVRBpqvO6kgG54U9vvBxoSqRsO9J5wiNq1vxhH1t077nj4knB7czj+NPs7wfiXE6HumLjC7lKItqGDRfixtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.API\\Workers.API.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.API\\Workers.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

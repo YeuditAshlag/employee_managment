@@ -45,7 +45,7 @@ const DeleteEmployee = () => {
           });
       } else if (result.dismiss === Swal.DismissReason.cancel) {
         // אם המשתמש ביטל את הפעולה, נווט לדף הטבלה של EmployeeList
-        navigate('/');
+        navigate('/employee');
       }
     });
   }, [state, navigate]);

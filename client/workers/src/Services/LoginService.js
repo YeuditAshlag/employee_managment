@@ -1,4 +1,5 @@
  import axios from "axios";
+ import Swal from 'sweetalert2';
 
 // import * as actionNames from '../redux/action'
 // import Swal from "sweetalert2";
@@ -87,19 +88,32 @@
 //     }
 // }
 
-class LoginService{
-
-    async login(username, password) {
-        try {
-            const response = await axios.post('https://localhost:7000/api/Auth', {
-                userName: username,
-                password: password
-            });
-            return response.data;
-        } catch (error) {
-            throw new Error('Login failed');
-        }
-    } 
-}
-
+class LoginService {
+    async login(firstName, lastName, password) {
+      try {
+        const response = await axios.post('https://localhost:7000/api/Employee/Login', {
+          firstName: firstName,
+          lastName: lastName,
+          password: password
+        });
+  
+        // הצלחתה בהתחברות - הצגת הודעת ברוך הבא
+        Swal.fire({
+          icon: 'success',
+          title: 'ברוך הבא!',
+          text: `ברוך הבא ${firstName} ${lastName}`
+        });
+  
+        return response.data;
+      } catch (error) {
+        // אי הצלחתה בהתחברות - הצגת הודעת כשלון
+        Swal.fire({
+          icon: 'error',
+          title: 'שגיאה!',
+          text: ' מצטערים לא קיים אצלינו עובד בשם שלך'
+        });
+        throw new Error('Login failed');
+      }
+    }
+  }
 export default new LoginService();

@@ -1,27 +1,39 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from "react-redux";
 import {  Typography, Box, Dialog, DialogContent, DialogTitle, TextField, Button, Grid, FormControlLabel, RadioGroup, Radio, FormLabel } from '@mui/material';
-import AddRole from './addRole';
+
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { addNewEmployee, getAllEmployeeies, updateEmployee } from "../utils/utilEmployee";
+import IconButton from '@mui/material/IconButton';
+import InputAdornment from '@mui/material/InputAdornment';
+import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
+import { addNewEmployee, getAllEmployeeies, updateEmployee } from "../../utils/utilEmployee";
+import AddRole from '../Role/addRole';
 
 
 const Add = ({ setTextButton, textButton, employeeEdit, setEmployeeEdit, openDialog, setOpenDialog }) => {
   const dispatch = useDispatch();
   console.log(employeeEdit);
+  const [showPassword, setShowPassword] = useState(false);
+  const [password, setPassword] = useState('');
   const [employeeData, setEmployeeData] = useState({
     firstName: '',
     lastName: '',
     identity: '',
     email: '',
-    password: '1234',
+    password: '',
     startDateWork: '',
     birthDate: '',
     gender: 1,
     roles: []
   });
+  const toggleShowPassword = () => {
+    setShowPassword(!showPassword);
+  };
+
+
 
   const fetchData = async () => {
     const allEmployeeies_ = await getAllEmployeeies()
@@ -35,6 +47,7 @@ const Add = ({ setTextButton, textButton, employeeEdit, setEmployeeEdit, openDia
 
 
   const handleChange = (e) => {
+    setPassword(e.target.value);
     const { name, value } = e.target;
     let modifiedValue = value;
     if (name === 'gender') {
@@ -42,10 +55,7 @@ const Add = ({ setTextButton, textButton, employeeEdit, setEmployeeEdit, openDia
     }
     setEmployeeEdit({ ...employeeEdit, [name]: modifiedValue });
   };
-  const stringToDate = (dateString) => {
-    const [year, month, day] = dateString.split('-').map(Number);
-    return new Date(year, month - 1, day); // month - 1 כי החודשים מתחילים מ-0 ב-JavaScript
-  };
+ 
   const handleSubmit = async (e) => {
     console.log(employeeEdit)
     e.preventDefault();
@@ -70,37 +80,22 @@ const Add = ({ setTextButton, textButton, employeeEdit, setEmployeeEdit, openDia
     setEmployeeEdit(employeeData)
     setTextButton('Add')
   }
-  // const handleRemoveRole = (id) => {
-  //   console.log(id)
-  //   employeeEdit.roles = employeeEdit.roles.filter(role => (role.role.id == id))
-  //   setOpenDialog(true);
-  // }
-  // const handleRemoveRole = (id) => {
-  //   const updatedRoles = employeeEdit.roles.filter(role => role.role.id !== id); // סינון התפקיד הנבחר
-  //   setEmployeeEdit(prevState => ({
-  //     ...prevState,
-  //     roles: updatedRoles
-  //   }));
-
-  //   setOpenDialog(true); // לא ברור למה זה נדרש, כנראה שזה משהו שקשור ללוגיקה הקיימת באפליקציה שלך
-  // };
 
   const handleRemoveRole = (id) => {
-    console.log("click on me {id}",id)
-    // Filter out the role with the matching id
-    employeeEdit.roles = employeeEdit.roles.filter(role => role.id !== id);
-    // Update state directly (no need for prevState)
-    setEmployeeEdit(employeeEdit);
-    setOpenDialog(true); // (Optional, maintain dialog state)
-  
-    // Optional: Implement logic to remove role from server (API call)
+    const updatedRoles = employeeEdit.roles.filter(role => role.role.id !== id); 
+    setEmployeeEdit(prevState => ({
+      ...prevState,
+      roles: updatedRoles
+    }));
+    setOpenDialog(true);
   };
-  
-  const renderRoleOptions = () => {
-    return employeeEdit.roles.map(role => (
-      <MenuItem key={role.id} value={role.id}>{role.nameRole}</MenuItem>
-    ));
-  };
+
+
+  // const renderRoleOptions = () => {
+  //   return employeeEdit.roles.map(role => (
+  //     <MenuItem key={role.id} value={role.id}>{role.nameRole}</MenuItem>
+  //   ));
+  // };
 
   useEffect(() => {
     if (openDialog === false) {
@@ -168,6 +163,24 @@ const Add = ({ setTextButton, textButton, employeeEdit, setEmployeeEdit, openDia
                   </RadioGroup>
                 </FormControl>
               </Grid>
+                 <Grid item xs={12}>
+                <TextField
+                  name="password"
+                  label="Password"
+                  type={showPassword ? 'text' : 'password'}
+                  value={employeeEdit.password}
+                  onChange={handleChange}
+                  InputProps={{
+                    endAdornment: (
+                      <InputAdornment position="end">
+                        <IconButton onClick={toggleShowPassword} edge="end">
+                          {showPassword ? <VisibilityOff /> : <Visibility />}
+                        </IconButton>
+                      </InputAdornment>
+                    ),
+                  }}
+                />
+              </Grid>
               <Grid item xs={12}>
                 <TextField fullWidth label="Start Date Work" type="date" name="startDateWork" value={parseDate(employeeEdit.startDateWork)} InputLabelProps={{ shrink: true }} onChange={handleChange} required />
               </Grid>
@@ -176,7 +189,7 @@ const Add = ({ setTextButton, textButton, employeeEdit, setEmployeeEdit, openDia
                   <Typography variant="h6">Roles:</Typography>
                   {employeeEdit.roles?.map((role, index) => (
                     <Box key={index} display="flex" alignItems="center">
-                      <Typography>{role.role.nameRole}</Typography>
+                      <Typography >{role.role?.nameRole}</Typography> 
 
                       <Button onClick={() => handleRemoveRole(role.role.id)} color="error">
                         <DeleteIcon />

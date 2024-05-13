@@ -6,22 +6,23 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import ViewIcon from '@mui/icons-material/Visibility';
 import { IconButton, Button as MuiButton, Dialog, DialogTitle, DialogContent, DialogActions, TablePagination, SpeedDial, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Toolbar, Tooltip  } from '@mui/material';
-import EmployeeDetails from '../components/employeeDetails';
+import EmployeeDetails from '../components/Employee/employeeDetails';
 import FileCopyIcon from '@mui/icons-material/FileCopyOutlined';
 import SaveIcon from '@mui/icons-material/Save';
 import PrintIcon from '@mui/icons-material/Print';
 import ShareIcon from '@mui/icons-material/Share';
 import AddRoleToRoles from '../components/AddRoleToRoles';
-import Add from '../components/add';
-import PrintButton from '../components/PrintButton';
+import PrintButton from '../components/Header/PrintButton';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { getAllEmployeeies, getEmployeeById } from "../utils/utilEmployee";
 import EmailIcon from '@mui/icons-material/Email';
-import SendEmailDialog from '../components/SendEmail';
+import SendEmailDialog from '../components/Employee/SendEmail';
 import {  TextField } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import '../style/style1.css';
 import { Button, AddCircleOutlineIcon } from '@mui/material';
+// import { Add } from '@mui/icons-material';
+import Add from '../components/Employee/add';
 
 
 const EmployeeList = () => {
@@ -38,7 +39,7 @@ const EmployeeList = () => {
     firstName: '',
     lastName: '',
     identity: '',
-    password: '1234',
+    password: localStorage.getItem('password'),
     email:'',
     startDateWork: '',
     birthDate: '',

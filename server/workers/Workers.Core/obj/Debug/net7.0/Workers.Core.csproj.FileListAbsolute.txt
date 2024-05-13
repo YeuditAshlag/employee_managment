@@ -22,3 +22,27 @@ C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_managm
 C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_managment\server\workers\Workers.Core\obj\Debug\net7.0\refint\Workers.Core.dll
 C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_managment\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.pdb
 C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_managment\server\workers\Workers.Core\obj\Debug\net7.0\ref\Workers.Core.dll
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\bin\Debug\net7.0\Workers.Core.deps.json
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\bin\Debug\net7.0\Workers.Core.dll
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\bin\Debug\net7.0\Workers.Core.pdb
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.AssemblyInfo.cs
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.dll
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\refint\Workers.Core.dll
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.pdb
+C:\Users\user1\Documents\תיקיית תיכנות\שנה ב'\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\ref\Workers.Core.dll
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\bin\Debug\net7.0\Workers.Core.deps.json
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\bin\Debug\net7.0\Workers.Core.dll
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\bin\Debug\net7.0\Workers.Core.pdb
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.AssemblyInfo.cs
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.dll
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\refint\Workers.Core.dll
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\Workers.Core.pdb
+C:\Users\user1\Documents\תיקיית תיכנות\employeeies_system\server\workers\Workers.Core\obj\Debug\net7.0\ref\Workers.Core.dll

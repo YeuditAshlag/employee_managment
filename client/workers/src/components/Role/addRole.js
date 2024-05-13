@@ -1,9 +1,13 @@
+
+
 import React, { useEffect, useState } from 'react';
 import { Button, FormControl, MenuItem, Select, Typography, InputLabel } from '@mui/material';
-import { getAllRoles } from "../utils/utilsRoles";
+import { getAllRoles } from "../../utils/utilsRoles";
 
 
 const AddRole = ({ setEmployeeEdit, employeeEdit }) => {
+
+    console.log(employeeEdit)
     const [isAdding, setIsAdding] = useState(false);
     const [allRoles, setAllRoles] = useState([]);
     const [selectedRole, setSelectedRole] = useState('')
@@ -14,9 +18,11 @@ const AddRole = ({ setEmployeeEdit, employeeEdit }) => {
     };
 
     const filterRolesOfEmployee = () => {
-        employeeEdit.roles?.map((role) => {
-            filterRoleById(role.role.id)
-        })
+        // if (allRoles.length > 0) {
+            employeeEdit.roles?.map((role) => {
+                filterRoleById(+role.roleId)
+            })
+        // }
     }
 
     const filterRoleById = (id) => {
@@ -29,17 +35,25 @@ const AddRole = ({ setEmployeeEdit, employeeEdit }) => {
     }, []);
 
     useEffect(() => {
+        if (allRoles.length > 0) {
+            filterRolesOfEmployee();
+        }
+    }, [allRoles]);
+
+    useEffect(() => {
         filterRolesOfEmployee()
     }, [isAdding])
 
     const handleChangeRole = (e) => {
-        setSelectedRole(e.target.value.nameRole)
+        setSelectedRole(e.target.value)
         setEmployeeEdit({
             ...employeeEdit,
             roles: [
                 ...employeeEdit.roles,
                 {
                     roleId: +e.target.value.id,
+                    role: e.target.value,
+                    
                     startDateWork: new Date(),
                     ismanagerial: false
                 }
@@ -55,7 +69,7 @@ const AddRole = ({ setEmployeeEdit, employeeEdit }) => {
 
     return (
         <>
-            <Button onClick={() => setIsAdding(!isAdding)} variant="outlined" style={{color:'#D32F2F'}}>
+            <Button onClick={() => setIsAdding(!isAdding)} variant="outlined" style={{ color: '#D32F2F' }}>
                 {isAdding ? "Cancel" : "Add Role"}
             </Button>
             {isAdding &&
@@ -84,3 +98,4 @@ const AddRole = ({ setEmployeeEdit, employeeEdit }) => {
 };
 
 export default AddRole;
+

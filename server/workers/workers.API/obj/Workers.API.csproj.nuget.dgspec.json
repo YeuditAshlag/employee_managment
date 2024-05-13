@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.API\\Workers.API.csproj": {}
+    "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.API\\Workers.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.API\\Workers.API.csproj": {
+    "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.API\\Workers.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.API\\Workers.API.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.API\\Workers.API.csproj",
         "projectName": "Workers.API",
-        "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.API\\Workers.API.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.API\\Workers.API.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.API\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Core\\Workers.Core.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Core\\Workers.Core.csproj"
+              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Core\\Workers.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Core\\Workers.Core.csproj"
               },
-              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Data\\Workers.Data.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Data\\Workers.Data.csproj"
+              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Data\\Workers.Data.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Data\\Workers.Data.csproj"
               },
-              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Service\\Workers.Service.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Service\\Workers.Service.csproj"
+              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Service\\Workers.Service.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Service\\Workers.Service.csproj"
               }
             }
           }
@@ -101,14 +101,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Core\\Workers.Core.csproj": {
+    "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Core\\Workers.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Core\\Workers.Core.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Core\\Workers.Core.csproj",
         "projectName": "Workers.Core",
-        "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Core\\Workers.Core.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Core\\Workers.Core.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Core\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -167,14 +167,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Data\\Workers.Data.csproj": {
+    "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Data\\Workers.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Data\\Workers.Data.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Data\\Workers.Data.csproj",
         "projectName": "Workers.Data",
-        "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Data\\Workers.Data.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Data\\Workers.Data.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Data\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -196,8 +196,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Core\\Workers.Core.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Core\\Workers.Core.csproj"
+              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Core\\Workers.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Core\\Workers.Core.csproj"
               }
             }
           }
@@ -243,14 +243,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Service\\Workers.Service.csproj": {
+    "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Service\\Workers.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Service\\Workers.Service.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Service\\Workers.Service.csproj",
         "projectName": "Workers.Service",
-        "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Service\\Workers.Service.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Service\\Workers.Service.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Service\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -272,11 +272,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Core\\Workers.Core.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Core\\Workers.Core.csproj"
+              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Core\\Workers.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Core\\Workers.Core.csproj"
               },
-              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Data\\Workers.Data.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\שנה ב'\\employeeies_managment\\server\\workers\\Workers.Data\\Workers.Data.csproj"
+              "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Data\\Workers.Data.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תיקיית תיכנות\\employeeies_system\\server\\workers\\Workers.Data\\Workers.Data.csproj"
               }
             }
           }
