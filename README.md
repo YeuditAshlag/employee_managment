@@ -35,4 +35,6 @@ Send email to employee
 ![צילום מסך 2024-05-13 194009](https://github.com/YeuditAshlag/employee_managment/assets/148490087/b65225dc-e988-4117-9c4c-677654cdb8dc)
 
 To print all table
+![צילום מסך 2024-05-13 195722](https://github.com/YeuditAshlag/employee_managment/assets/148490087/5a94e469-bda1-4c59-a361-c4d8a2d2b97a)
+
 
