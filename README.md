@@ -11,7 +11,7 @@ Companies that work with us
 ![צילום מסך 2024-05-13 195232](https://github.com/YeuditAshlag/employee_managment/assets/148490087/6f0030a0-f778-46ed-b718-2657b0e8af13)
 
 Footer in home page
-![צילום מסך 2024-05-13 195455](https://github.com/YeuditAshlag/employee_managment/assets/148490087/31b86445-c442-42cd-80c6-d1e97de78d5b)
+![צילום מסך 2024-05-14 033750](https://github.com/YeuditAshlag/employee_managment/assets/148490087/446cedbf-4645-4f4f-b94e-f2889de6002c)
 
 Table that display all employeeies that work in our company
 ![צילום מסך 2024-05-13 193733](https://github.com/YeuditAshlag/employee_managment/assets/148490087/f9fe723b-78f0-4c32-97f5-523e48b31e74)
