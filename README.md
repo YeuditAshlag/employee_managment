@@ -1,3 +1,46 @@
+
+Technologies Used
+Frontend: React
+Backend: ASP.NET with Model-View-Controller (MVC) architecture
+Database: SQL Server
+Integration: Gmail API for sending emails
+(back to top)
+
+Setup Instructions
+This guide will walk you through setting up the project locally. Follow these steps to get a local copy up and running.
+
+Prerequisites
+Before you begin, make sure you have the following installed:
+
+Node.js and npm. You can install them from here.
+
+. You can install it globally using npm with the following command:
+
+npm install
+NET Core SDK. You can download and install it.
+
+SQL Server. You can download and install the Developer edition.
+
+
+
+Clone the repository:
+
+git clone https://github.com/YeuditAshlag/employee_managment.git
+Navigate to the client directory:
+
+cd employee_managment/client
+Install React dependencies:
+
+npm install
+Start the React development server:
+
+npm start
+Open your web browser and navigate to http://localhost:3000 to view the application. Now you have the project set up locally and ready for development.
+
+(back to top)
+
+Usage
+
 Login to application
 ![1](https://github.com/YeuditAshlag/employee_managment/assets/148490087/1d9f2824-4908-4432-a913-c75acb371b34)
 
