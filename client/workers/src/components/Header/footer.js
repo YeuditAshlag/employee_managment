@@ -41,9 +41,8 @@ We touch the lives of billions of people every day, enabling a better connected 
                         <ul>
                             <li><a href="/home"><b> Home Page</b></a></li>
                             <li><a href="/employee"><b> employeesList</b></a></li>
-                            <li><a href="/employee"><b> addEmployee</b></a></li>
                             <li><a href="/"><b> Connect</b></a></li>
-                            <li><a href="/logout" className="active" onClick={logout} style={{ display: connect() ? 'block' : 'none' }}> Logout</a></li>
+                        
                         </ul>
                     </div>
                 </div>
