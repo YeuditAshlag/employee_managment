@@ -1,5 +1,11 @@
 import React from 'react';
 import '../../style/footer.css'
+import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () => {
     const logout = () => {
@@ -46,11 +52,12 @@ We touch the lives of billions of people every day, enabling a better connected 
             <div className="copyright">
                 <p>&#169; 2024 Amdocs | built by <strong>Yehudit Ashlag.</strong> </p>
                 <div className="share">
-                    <div><i className="fab fa-facebook-f"></i></div>
-                    <div><i className="fab fa-linkedin-in"></i></div>
-                    <div><i className="fab fa-twitter"></i></div>
-                    <div><i className="fab fa-google-plus-g"></i></div>
-                    <div><i className="fab fa-github"></i></div>
+                    <div><FacebookSharpIcon/></div>
+                    <div><GitHubIcon/></div>
+                    <div><LinkedInIcon/></div>
+                    <div><TwitterIcon/></div>
+                    <div><YouTubeIcon/></div>
+                    <div><InstagramIcon/></div>
                 </div>
             </div>
         </footer>
