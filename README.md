@@ -36,6 +36,10 @@ Start the React development server:
 
 npm start
 Open your web browser and navigate to http://localhost:3000 to view the application. Now you have the project set up locally and ready for development.
+In order to enter the application you must enter in the registration form:
+First name: Yeudit
+Lastname: Ashlag
+Password: 1234
 
 (back to top)
 
