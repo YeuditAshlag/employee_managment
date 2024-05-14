@@ -1,3 +1,68 @@
+Description
+The BUSINESS application is designed to provide advanced solutions for businesses, including employee management and updates on company developments. Users can sign up for notifications and updates by entering their email on the home page. The application manages employees efficiently through a user-friendly display of employee data in either table or card format. Users can add, edit, or delete employees individually, or upload an Excel file to add multiple employees at once. Additionally, there's a feature to send emails to all employees directly from the application. Security measures are implemented to ensure that only administrators can access and utilize the employee management functionalities. Users are required to log in with their username and password on the login page.
+
+(back to top)
+
+Features
+Employee Management:
+View employees in a table or card format.
+Add, edit, or delete individual employees.
+Upload Excel file to add multiple employees.
+Email Notifications:
+Sign up 
+Send emails to employee.
+Export and Print:
+Export employee list to Excel file.
+Print employee list.
+Search Functionality:
+Easily search for employees.
+Security:
+Only administrators can access and manage employee data.
+User authentication required for accessing the application.
+(back to top)
+
+Technologies Used
+Frontend: React
+Backend: ASP.NET with Model-View-Controller (MVC) architecture
+Database: SQL Server
+Integration: Gmail API for sending emails
+(back to top)
+
+Setup Instructions
+This guide will walk you through setting up the project locally. Follow these steps to get a local copy up and running.
+
+Prerequisites
+Before you begin, make sure you have the following installed:
+
+Node.js and npm. You can install them from here.
+
+. You can install it globally using npm with the following command:
+
+npm install
+NET Core SDK. You can download and install it.
+
+SQL Server. You can download and install the Developer edition.
+
+
+
+Clone the repository:
+
+git clone https://github.com/YeuditAshlag/employee_managment.git
+Navigate to the client directory:
+
+cd employee_managment/client
+Install React dependencies:
+
+npm install
+Start the React development server:
+
+npm start
+Open your web browser and navigate to http://localhost:3000 to view the application. Now you have the project set up locally and ready for development.
+
+(back to top)
+
+Usage
+
 Login to application
 ![1](https://github.com/YeuditAshlag/employee_managment/assets/148490087/1d9f2824-4908-4432-a913-c75acb371b34)
 
